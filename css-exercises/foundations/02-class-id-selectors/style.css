@@ -1,0 +1,15 @@
+#two {
+    background-color:#fff;
+    color: blue;
+    font-size: 36px;
+}
+
+.odd {
+    background-color: pink;
+}
+
+#four {
+    background-color: rgb(159, 231, 159);
+    font-size: 24px;
+    font-weight: bold;
+}

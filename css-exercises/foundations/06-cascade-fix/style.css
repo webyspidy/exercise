@@ -1,0 +1,31 @@
+.para {
+    background-color: white;
+    color: red;
+    font-size: 22px;
+}
+
+.small,
+.child {
+    color: red;
+    font-size: 14px;
+}
+
+.ok {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.no {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.text,
+.green {
+    background-color: white;
+    color: green;
+    font-size: 22px;
+}
+
+
