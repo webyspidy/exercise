@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    background-color: #aaa;
+    color: #333;
+    margin: 0;
+}
+
+.modal {
+    background-color: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    align-items: cneter;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background: lavender;
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #888;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+button.continue {
+    color: white;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+}
+
+button.cancel {
+    color: blue;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.text {
+    margin-bottom: 16px;
+}
